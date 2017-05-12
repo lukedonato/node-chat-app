@@ -11,8 +11,4 @@ socket.on('connect', function () {
     console.log('disconnected from server');
   });
 
-  socket.emit('createMessage', {
-    from: 'jen@example.com',
-    text: 'hey. this is luke'
-  });
 });
